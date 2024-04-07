@@ -1,0 +1,418 @@
+
+.board {
+    /* width: 800px;
+    height: 800px; */
+    width: fit-content;
+    border: 10px solid black;
+    margin: auto;
+    border-radius: 20px;
+    
+
+}
+
+.green-box {
+    width: 250px;
+    height: 250px;
+    border: 2px solid;
+    background-color: #009900;
+    
+
+}
+.red-box {
+    border: 2px solid;
+    width: 250px;
+    height: 250px;
+    background-color: #ff0000;
+}
+
+.yellow {
+    width: 250px;
+    height: 250px;
+    border: 2px solid;
+    background-color: #ffcc00;
+}
+.blue {
+    width: 250px;
+    height: 250px;
+    border: 2px solid;
+    background-color: #66ccff;
+
+}
+.white-box {
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    background-color: #ffffff;
+    margin: 20% auto;
+    border-radius: 20px;
+
+}
+.green-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid;
+    float: left;
+    margin: 16px;
+    background-color: #009900;
+}
+.red-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid;
+    float: left;
+    margin: 16px;
+    background-color: #ff0000;
+}
+.yellow-circle {
+    width: 40px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: #ffcc00;
+    float: right;
+    margin: 16px;
+}
+.blue-circle {
+    width: 40px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: #66ccff;
+    float: right;
+    margin: 16px;
+    
+}
+.row {
+  display: flex;  
+  
+}
+.cell {
+    width: 40px;
+    height: 40px;
+    border: 1px solid;
+
+} 
+.red {
+    background-color: #ff0000;
+}
+.green {
+    background-color: #009900;
+}
+.yellow {
+    background-color: #FFCC00;
+}
+.blue {
+    background-color: #66CCFF;
+}
+.containar {
+    width: fit-content;
+}
+
+.end {
+     width: 100%;
+     border: 1px solid; 
+     border-radius: 10%;
+     background-color: #ffffff;
+     display: flex
+}
+.end img {
+    width: 110px;
+    margin-left: 10px;
+
+}
+.stop {
+    width: 40px;
+}
+.start {
+    width: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    
+.board {
+    /* width: 800px;
+    height: 800px; */
+    width: fit-content;
+    border: 10px solid black;
+    margin: auto;
+    border-radius: 20px;
+    
+
+}
+
+.green-box {
+    width: 150px;
+    height: 150px;
+    border: 2px solid;
+    background-color: #009900;
+    
+
+}
+.red-box {
+    border: 2px solid;
+    width: 150px;
+    height: 150px;
+    background-color: #ff0000;
+}
+
+.yellow {
+    width: 150px;
+    height: 150px;
+    border: 2px solid;
+    background-color: #ffcc00;
+}
+.blue {
+    width: 150px;
+    height: 150px;
+    border: 2px solid;
+    background-color: #66ccff;
+
+}
+.white-box {
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
+    background-color: #ffffff;
+    margin: 20% auto;
+    border-radius: 20px;
+
+}
+.green-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid;
+    float: left;
+    margin: 11px;
+    background-color: #009900;
+}
+.red-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid;
+    float: left;
+    margin: 11px;
+    background-color: #ff0000;
+}
+.yellow-circle {
+    width: 10px;
+    height: 10px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: #ffcc00;
+    float: right;
+    margin: 11px;
+}
+.blue-circle {
+    width: 10px;
+    height: 10px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: #66ccff;
+    float: right;
+    margin: 11px;
+    
+}
+.row {
+  display: flex;  
+  
+}
+.cell {
+    width: 22px;
+    height: 22px;
+    border: 1px solid;
+
+} 
+.red {
+    background-color: #ff0000;
+}
+.green {
+    background-color: #009900;
+}
+.yellow {
+    background-color: #FFCC00;
+}
+.blue {
+    background-color: #66CCFF;
+}
+.containar {
+    width: fit-content;
+}
+
+.end {
+     width: 100%;
+     border: 1px solid; 
+     border-radius: 10%;
+     background-color: #ffffff;
+     display: flex
+}
+.end img {
+    width: 10px;
+    margin-left: 10px;
+
+}
+.stop {
+    width: 20px;
+}
+.start {
+    width: 20px;
+}
+
+  }
+
+
+
+
+
+
+
+
+  
+@media screen and (max-width: 880px) {
+    
+    .board {
+        /* width: 800px;
+        height: 800px; */
+        width: fit-content;
+        border: 10px solid black;
+        margin: auto;
+        border-radius: 20px;
+        
+    
+    }
+    
+    .green-box {
+        width: 150px;
+        height: 150px;
+        border: 2px solid;
+        background-color: #009900;
+        
+    
+    }
+    .red-box {
+        border: 2px solid;
+        width: 150px;
+        height: 150px;
+        background-color: #ff0000;
+    }
+    
+    .yellow {
+        width: 150px;
+        height: 150px;
+        border: 2px solid;
+        background-color: #ffcc00;
+    }
+    .blue {
+        width: 150px;
+        height: 150px;
+        border: 2px solid;
+        background-color: #66ccff;
+    
+    }
+    .white-box {
+        width: 70px;
+        height: 70px;
+        border: 1px solid;
+        background-color: #ffffff;
+        margin: 20% auto;
+        border-radius: 20px;
+    
+    }
+    .green-circle {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 1px solid;
+        float: left;
+        margin: 11px;
+        background-color: #009900;
+    }
+    .red-circle {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 1px solid;
+        float: left;
+        margin: 11px;
+        background-color: #ff0000;
+    }
+    .yellow-circle {
+        width: 10px;
+        height: 10px;
+        border: 1px solid;
+        border-radius: 50%;
+        background-color: #ffcc00;
+        float: right;
+        margin: 11px;
+    }
+    .blue-circle {
+        width: 10px;
+        height: 10px;
+        border: 1px solid;
+        border-radius: 50%;
+        background-color: #66ccff;
+        float: right;
+        margin: 11px;
+        
+    }
+    .row {
+      display: flex;  
+      
+    }
+    .cell {
+        width: 22px;
+        height: 22px;
+        border: 1px solid;
+    
+    } 
+    .red {
+        background-color: #ff0000;
+    }
+    .green {
+        background-color: #009900;
+    }
+    .yellow {
+        background-color: #FFCC00;
+    }
+    .blue {
+        background-color: #66CCFF;
+    }
+    .containar {
+        width: fit-content;
+    }
+    
+    .end {
+         width: 100%;
+         border: 1px solid; 
+         border-radius: 10%;
+         background-color: #ffffff;
+         display: flex
+    }
+    .end img {
+        width: 10px;
+        margin-left: 10px;
+    
+    }
+    .stop {
+        width: 20px;
+    }
+    .start {
+        width: 20px;
+    }
+    
+      }
